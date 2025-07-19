@@ -5,7 +5,7 @@ import Layout from './layout/Layout';
 import Home from './pages/home';
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/react-dashboard">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Layout />}>
