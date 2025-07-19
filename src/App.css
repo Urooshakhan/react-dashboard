@@ -154,30 +154,36 @@ body{
 
   
   /* form  */
+  .form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
   .form{
     background-color: aliceblue;
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     text-align: center;
-    position: absolute;
-    top: 35%;
-    left: 35%;
+    margin: 0 auto;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px grey;
+    padding: 20px;
   }
   .form h2{
-    margin-top: 50px;
     font-size: 30px;
   }
   form label{
-font-size: 20px;
-margin-top: 3px;
-
+    font-size: 20px;
+    margin-top: 3px;
   }
-   form input{
+  form input{
     margin-top: 10px;
-   }
-  form button{
-    margin-top: 30px;
+  }
+  .error{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
   }
   /* end  */
