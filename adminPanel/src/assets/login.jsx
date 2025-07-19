@@ -12,9 +12,11 @@ export default function Login({ onLogin }) {
       <h2>Login Form</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
+        <br />
         <input type="text" id="name" required />
         <br />
         <label htmlFor="password">Password</label>
+        <br />
         <input type="password" id="password" required />
         <br />
         <button type="submit">Login</button>
